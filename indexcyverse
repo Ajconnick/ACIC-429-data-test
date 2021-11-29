@@ -1,0 +1,10 @@
+#!/bin/bash
+
+touch eastplants
+set -u
+#move to smaller dataset, should fix the hard code
+icd /iplant/home/shared/phytooracle/season_10_lettuce_yr_2020/level_1/scanner3DTop/recent_changes/2020-03-02/plantcrop/east_downsampled
+#get names of plants
+ils >> eastplants
+
+
